@@ -1,21 +1,34 @@
-# 🎵 Spotify Music Recommender
+# Music Recommendation System
 
-A **machine learning project** that recommends songs based on audio feature similarity using **K-Means clustering**, **PCA**, and **t-SNE**.
-
----
-
-### Project Overview
-This project explores how machine learning can enhance music recommendation by grouping songs based on their audio characteristics.  
-Using **K-Means clustering** with **dimensionality reduction (PCA and t-SNE)**, I identified patterns among tracks in the Spotify dataset and visualized them in **Tableau**.
-
-The goal was to understand how data can capture aspects of **musical similarity** that listeners experience intuitively.
+A Python-based project that recommends songs with similar moods and styles using Spotify audio features.  
+This project applies data analysis and machine learning to understand how energy, valence, and acoustic features shape a song’s vibe.
 
 ---
 
-### 💻 Tech Stack
-**Python**, **Pandas**, **NumPy**, **Scikit-learn**, **Tableau**
+## Project Overview
+**Goal:** Build a content-based recommender that suggests similar songs.  
+**Data:** Spotify Audio Features Dataset (tracks, genres, and year).  
+**Techniques:** Feature scaling, K-Means clustering, cosine similarity, and t-SNE visualization.  
+**Key Features:**  
+- Analyzes energy, danceability, valence, and loudness correlations.  
+- Clusters songs and genres by mood and sound.  
+- Returns top song recommendations based on feature similarity.
 
 ---
 
-### 📊 Key Skills
-Clustering • Dimensionality Reduction • Data Visualization • Music Information Retrieval
+## Tools Used
+Python · Pandas · Scikit-learn · Plotly · Seaborn
+
+---
+
+## Why It Matters
+Demonstrates my ability to:
+- Preprocess and analyze complex datasets  
+- Apply unsupervised learning to music recommendation tasks  
+- Build interpretable machine learning solutions  
+
+---
+
+## Contact
+**Tajiana Pickett**
+📧 Tajianap@gmail.com  
